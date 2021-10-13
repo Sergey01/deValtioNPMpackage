@@ -1,0 +1,53 @@
+{
+  "name": "deValtio",
+  "version": "0.0.1",
+  "description": "NPM package to be used in conjunction with deValtio Chrome extension",
+  "homepage": "https://devaltio.io/",
+  "repository": {   
+    "type": "git",
+    "url": "https://github.com/oslabs-beta/deValtio"
+  },
+  "main": "devaltio.ts",
+  "scripts": {
+    "build": "tsc",
+    "patch:publish": "npm version patch && npm publish"
+  },
+  "peerDependencies": {
+    "typescript": "^4.4.4",
+    "valtio": "^1.2.4"
+  },
+  "contributors": [
+    {
+      "name": "Cameron Walls",
+      "url": "https://github.com/cwalls45"
+    },
+    {
+      "name": "Damian Allert",
+      "url": "https://github.com/reddallert"
+    },
+    {
+      "name": "Gordon Hui",
+      "url": "https://github.com/maddogg612"
+    },
+    {
+      "name": "Sergey Zeygerman",
+      "url": "https://github.com/Sergey01"
+    },
+    {
+      "name": "Tom Curtin",
+      "url": "https://github.com/3LD3ST"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/oslabs-beta/deValtio/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "devtool",
+    "react devtools",
+    "devaltio",
+    "valtio",
+    "proxy state management",
+    "state management"
+  ]
+}
